@@ -12504,10 +12504,16 @@ public final class Settings {
 
         /**
          * Whether to show an overlay in the bottom corner of the screen on copying stuff
-         * into the clipboard.
          * @hide
          */
         public static final String SHOW_CLIPBOARD_OVERLAY = "show_clipboard_overlay";
+
+        /**
+         * Quicksettings tile shape
+         * @hide
+         */
+        public static final String QS_TILE_SHAPE = "qs_tile_shape";
+
 
         /**
          * Whether to ask unlock for using qs
