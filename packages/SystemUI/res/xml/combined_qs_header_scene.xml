@@ -60,6 +60,18 @@
                 app:framePosition="@integer/fade_in_start_frame"
                 android:alpha="0"
                 />
+            <KeyAttribute
+                app:motionTarget="@id/clock"
+                app:framePosition="0"
+                android:scaleX="1"
+                android:scaleY="1"
+                />
+            <KeyAttribute
+                app:motionTarget="@id/clock"
+                app:framePosition="100"
+                android:scaleX="@dimen/qs_clock_text_scale"
+                android:scaleY="@dimen/qs_clock_text_scale"
+                />
             <KeyPosition
                 app:keyPositionType="deltaRelative"
                 app:percentX="0"
